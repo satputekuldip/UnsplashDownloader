@@ -16,7 +16,7 @@ print('Total Pages ' + str(init_res_json['total_pages']))
 pages = input("How much pages You Want to download(1 page = 10 imgs): ")
 check_android = input('is this Android Device :\n0: NO\n1: YES\nEnter Number(0 or 1): ')
 download_path = "./"
-if check_android == 1:
+if check_android == '1':
     download_path = '/storage/emulated/0/Download/'
 else:
     download_path = input('Enter Full Download Path: ')
