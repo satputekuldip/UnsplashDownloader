@@ -8,6 +8,8 @@ cd UnsplashDownloader
 pip install -r requirements.txt
 
 cp .env.example .env
+
+nano .env
 ```
 paste your key in .env file
 
